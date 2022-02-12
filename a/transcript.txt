@@ -1,0 +1,61 @@
+Transcript. Use arrow keys to navigate between transcript entries. Select an entry to navigate the media to the time of the entry.
+
+ETHAN TAN WEE EN started transcription
+E
+ETHAN TAN WEE EN0:09
+Hi doctor young.
+From this, is it and and I'm going to.
+Share my demo or potty.
+He saw in the background research. To begin, I I.
+I searched up.
+The details on this year, but then data set which is Windows computer said they were using. So if it ends the data storage comprises 60,032 by 32 color images in 10 classes, namely Applin automobile, but so on. Then for each class there are 5000 training images and 1000 test images, but for.
+Uhm, generating images. It doesn't matter whether it's training or there's no. There's no testing, so I just concatenate all of the images together. So 6000 per class.
+And another thing to note is from the site they said that the classes are mutually exclusive, so there's no overlap between any of the classes, and this is quite crucial because.
+At the end we want objective is to make.
+And I found that the images or best view.
+When they were zoomed out rather than soon here. So for this I intentionally zoom demo so you can see the silhouette and it's clearer.
+'cause if you zoom in.
+No, the processor Khai, uh I'd intends to to fill in the gaps or to or to blow it out so that you can.
+Increase the resolution.
+Or they use some kind of interpolation method which is not ideal.
+Again, so the again the new process. This is a gift. Yeah, any meat that the process of each JIAN for each class or one for each class, and it's for the trucks one.
+Now use the same set of random latent vectors for this process so that the changes will converge to.
+Final version, if I use a different then it will just be moving everywhere over the place, but this was pretty cool.
+So quantitative evaluation.
+I also
+check the I used to metrics to measure the performance of the gains so one is exception score which took all the images or the generated images and compared it.
+Against the real ones.
+And the skull was five and four for the real and fake images, respectively, so.
+Uhm?
+Ideally the the IT should be 10 because they're doing classes.
+I don't know why they're 5.
+I think 5 is because the the groups of the images they look the same like classes which are similar to the one in order like trucks and cars or dear horses. Get some docs and then these were tend to be classified similarly. Left therefore inception score is low.
+I think you mean just as I think, rather close to the real one, so it's not bad.
+I also used fresh inception distance to measure how similar so they run was to measure how this similar this one is to measure how similarly out.
+It uses statistics of the images like distributions, entropies, or variances to determine whether the images are similar.
+I compare them in a, plotted it on a bad shot.
+And it shows the respective IDs 'cause most of them are hovering around 300 would be out variance.
+Yeah, so I think it's OK. It's average because identical images as zero and they are perfectly identical. Every zero RFID and random noises around 350 from. From searching online you can easily find the round trip. So somewhere sits somewhere in the middle.
+I think it's OK because ultimately quality of the images is judged by human eye rather than using these numbers, let's just engage.
+So I use this function general images to generate the final images, just specify.
+The the class in the version and you would just generate 100 images, five sets of 20.
+So the conclusions of this assignment and that image generation is no easy feat. I'm not great at this. I didn't. I don't draw well that well, as some people do, so I I can't imagine how hard it is to draw color images.
+And jeans, I think are really fascinating part of machine learning. They are.
+They explored the bounds of what's possible.
+No, just some image classification, but even.
+Learning to create its own images, it's really quite intriguing.
+And you also opens us to new possibilities like.
+I have discussed in class I think.
+Style gains UM.
+I didn't gains can be used in many ways and not just the ones we've talked about. Maybe things that we haven't thought about this so.
+Your networks.
+So the last point neural networks.
+Maybe incorporate into our lives right under our very noses. I think this is very true so you have things like Siri and.
+Alexa.
+A notice things are part of our lives and they used neural networks and.
+Many people are just not aware of.
+Yeah, these are the references, so I did refer to a lot of online resources.
+For this project, yeah, that's the end of my presentation. Will be enjoying it.
+Thank you.
+
+ETHAN TAN WEE EN stopped transcription
