@@ -1,0 +1,52 @@
+Transcript. Use arrow keys to navigate between transcript entries. Select an entry to navigate the media to the time of the entry.
+JN
+JENNIFER NG0:08
+Hello Doctor Leong, this is our presentation for Part B. Reinforcement learning.
+E
+ETHAN TAN WEE EN0:17
+Ok.
+JN
+JENNIFER NG0:25
+For their background research, we have found out about the following. The state space of the environment has eight values. The values are where the lender is in the space. The speech where the lender is going.
+Where both of which is do not. Using X&Y, the angle at which the lender is facing and how fast the lender is spinning, and also whether any of the legs have touched the ground.
+The lender can choose from for actions at each step, which is to either go to the right, which is done by the left engine and vice a versa, slowed down, or do nothing. These actions will all be rewarded accordingly.
+For a base, the reward for moving from the top landing pad at 0 speed is 100 to about 140 points. The lender begins with our random for supply at tweets main engine.
+If the lender moves away from the landing pad, it loses points. If it crashes, you also lose about 100 points if it comes to rest, however, it gains 100 points. Firing the main engine loser 0.3 points for each frame, or firing at any set of the engine or each frame will lose 0.03 points wise like that comes in contact with the ground. It gets 10 points. And finally, if it solves which means landing on the landing pad, he gains 200 points.
+The episode does, however terminate if the lender crashes moving outside the screen, or if the lender is not awake.
+Using these fractions and rewarding scheme, the lender objective is to lend between the flex safety, which is also the Ling pet.
+So for each of these configurations we can plot them out and observe in real time whether the models work on virgin or not in terms of your wants. And they also allow us to compare multiple runs, and this was useful in determining the optimal set of hyperparameters we use in the final model.
+So the learning curve for the double DQN was not as great as we had hoped. Perhaps it's because we kept the maximum steps at 800 in an attempt to reduce.
+In an attempt to.
+Foster the the agent to finish it as quickly as possible that Cliff stunted their growth and also cause the hyperparameters could not could be less than optimal. As you can see from zero to around 270 episodes, it was improving and reached a rolling mean of around 20, but after that it just, it just went down here.
+So after this we decided to go with a vanilla DQN, which is a simple network. And even though this is supposedly more unstable, the implementation can.
+Uhm?
+Can sometimes do better than the double DQN if the environment is simple enough and nevertheless we tried it out and surprisingly work better.
+So this is the learning curve of DQN.
+On the steps you can see after while it's actually decreasing, rather mean is decreasing.
+And this indicates that the the agent is taking a shorter and shorter time to soft or Talend.
+On the landing pad, the score is also increasing rather well, so you start at around negative 200 and increase steadily and peaked around 225.
+For an episode 400 and after that it it led to.
+So we can visualize the performance improvement. So these are visual way of evaluating the model. After five after 50 episodes, it looks like the model has not learned enough yet and it's still very conservative.
+You can see.
+Is taking a while to lend.
+But it has, it's already a COM a tremendous improvement from the random agent which we saw it first.
+And then this is the the DQN agent after 100 and 5000 episodes.
+It seems to be targeting the landing pad, but it's moving at very high speed, so it's still not very safe option.
+For passengers
+and when the model has reached around 350 to 260 episodes, we can see that it has learned to land rather well rather smoothly.
+Even though sometimes they need a needs, a bit of correction, but still managed to find its way. The way to the landing pad and land safely. Most of the time, or 90% of the time.
+Just let it play for a bit more.
+Yeah, I think that's enough.
+So the model evaluation.
+So from the learning curve we can see evident in that yeah hundred episode rolling mean.
+Pass it pass 200 or well. It's well above 200 and from the videos we can also confirm visually that the lender has learned to land successfully and safely on the landing pad majority of the time. For most of the time. Therefore, we conclude that we have successfully solved the Luna, then the V2 environment from the open AI Gym library.
+So is this our conclusions a complex solution is now is the most optimal. In this case, the DQN surpassed the double DQN and.
+Come in full episodes, no doubt.
+One just often is implemented is more elegant and use better results if it's available, but one just has to that one just needs the patience to seek it out, and this assignment on reinforcement learning has really.
+In in US.
+Improve our.
+Consideration into how humans ourselves then?
+And these are references.
+That's it, end of the presentation. Hope you enjoyed it. Thank you.
+
+ETHAN TAN WEE EN stopped transcription

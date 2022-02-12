@@ -1,4 +1,6 @@
+# Python Virtual Environment
 .venv/
-gans/
-images/
+
+# Temporary Files
 tmp/
+tmp*
